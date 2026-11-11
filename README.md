@@ -24,8 +24,7 @@ completions, and puts `LICENSE` and `NOTICE` in the package's doc directory.
 
 ## Status
 
-Not live yet. The formula (`Formula/pewter.rb`) is added with the first signed release, once real, verified
-hashes exist. Until then `brew install` will not work.
+Live for pewter 0.1.0. The formula pins the SHA-256 of the signed v0.1.0 archives. Darwin binaries in 0.1.0 are not notarized; Homebrew installs are unaffected by Gatekeeper quarantine.
 
 ## Maintainers: updating the formula
 
